@@ -1,0 +1,18 @@
+# Backend
+backend/target/
+backend/.mvn/
+backend/*.iml
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+
+# Docker image tarballs
+*.tar
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
