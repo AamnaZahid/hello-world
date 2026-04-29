@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: frontend-app:latest
+          image: frontend-app:v2
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 3000
@@ -73,7 +73,7 @@ spec:
       targetPort: 3000
       nodePort: 30080
       protocol: TCP
-      
+
 # apiVersion: apps/v1
 # kind: Deployment
 # metadata:
