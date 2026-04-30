@@ -33,7 +33,7 @@ function App() {
       <div className="card">
         <h1 className="title">React Frontend on K3s</h1>
         <p className="subtitle">
-          A full-stack Hello World running on a Kubernetes (K3s) cluster
+          A full-stack Hello World running on a Kubernetes (K3s) cluster (Version2)
         </p>
 
         <div className="panel">
